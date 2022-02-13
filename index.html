@@ -11,6 +11,21 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TNP DB</title>
+    <style>
+      body{
+        background-color: aquamarine;
+        color: black;
+        font-family: serif;
+        letter-spacing: 0.5px;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      a:hover{
+        color: rgb(92, 88, 88);
+      }
+    </style>
   </head>
   <body>
       
@@ -18,32 +33,29 @@
         <div class="container-sm">
             
 <div class="container-fluid">
-    <div class="container">
-        <h1 class="my-4 text-center">TNP DB Project</h1>
-             
-        <!-- CARD START HERE -->
-
-        <div class="container-fluid mt-2">
-        <h2 class="my-4"> Made by </h2>
-        <div class="row text-center">
-            <div class="col-xl-3 col-sm-6 mb-3">
-                <div class="card bg-primary o-hidden h-100">
-                    <div class="card-body">
-                        <!-- <div class="text-center card-font-size">&nbsp; </div> -->
-                        <div class="text-center card-font-size"> 
-                            <a href="https://www.linkedin.com/in/yashlakade/" target="_blank" class="text-white" style="text-decoration: none;"> Yash Lakade </a>
-                        </div>
-                    </div>                  
+      <div class="container">
+        <h1 class="my-4 text-center text-dark font-xl">TNP DB Project</h1>
+    
+        <div class="container-fluid" style="margin-top: 80px; margin-bottom: 75px; font-size: 1.2rem;">
+            <div class="card o-hidden bg-dark">
+              <div class="card-body bg-dark">
+                <div class="text-center card-font-size"> 
+                  <p style="color: white;">
+                    Made by
+                    <a href="https://www.linkedin.com/in/yashlakade/" target="_blank" style="color: white;"> Yash Lakade </a>
+                  </p>
                 </div>
+              </div>                  
             </div>
+          </div>
         </div> 
-        </div>   
+      </div>   
 
      <div class="container mt-5">
-        <h3 class="mb-4">Tech Stack used</h3>
+        <h3 class="mb-3">Tech Stack used</h3>
         <div class="row">
-        <div class="m-1 border border-primary col-xl-5 col-sm-12 p-3">
-            <h4 class="text-primary"> Frontend </h4>
+        <div class="m-1 border border-dark col-xl-5 col-sm-12 p-3">
+            <h4 class="text-dark"> Frontend </h4>
             <ul type=none>
                 <li>EJS - Embedded JavaScript</li>
                 <li>CSS - Cascading Style Sheets</li>
@@ -52,8 +64,8 @@
             </ul>
         </div>
 
-        <div class="m-1 border border-primary col-xl-5 col-sm-12 p-3">
-            <h4 class="text-primary"> Backend </h4>
+        <div class="m-1 border border-dark col-xl-5 col-sm-12 p-3">
+            <h4 class="text-dark"> Backend </h4>
             <ul type=none>
                 <li>Node.js</li>
                 <li>Express.js</li>
@@ -63,8 +75,8 @@
         </div>
     </div>
     <div class="row">
-        <div class="m-1 border border-primary col-xl-5 col-sm-12 p-3">
-            <h4 class="text-primary"> NPM Packages </h4>
+        <div class="m-1 border border-dark col-xl-5 col-sm-12 p-3">
+            <h4 class="text-dark"> NPM Packages </h4>
             <ul type=none>
                 <li>Body Parser</li>
                 <li>Flash</li>
@@ -75,8 +87,8 @@
             </ul>
         </div>
 
-        <div class="m-1 border border-primary col-xl-5 col-sm-12 p-3">
-            <h4 class="text-primary"> Tools used and References </h4>
+        <div class="m-1 border border-dark col-xl-5 col-sm-12 p-3">
+            <h4 class="text-dark"> Tools used and References </h4>
             <ul type=none>                            
                 <li><a href="https://www.npmjs.com/" target="_blank">NPM</a></li>
                 <li><a href="https://developer.mozilla.org/en-US/" target="_blank"> MDN Documentation</a></li>
@@ -94,51 +106,73 @@
 </div>
 
     <div class="container-sm m-5 text-center">
-        <b>Note :-</b> As the app is made for only certain authorized users it is only avilable for them specifically. You can have a view on 
-        its UI though !!
+        <b>Note :-</b> As the app is made for certain authorized users only. You can have a view on its tech stack and UI, 
+        though !! :)
     </div>
 
       <div class="container m-5 p-5">
+        <div class="container-sm m-3">
+           1) After landing page, there is login page for authorized users (Faculty).
+        </div>
         <img
-          src="./images/Screenshot (75).png"
+          src="./images/Login.png"
           class="img-fluid border border-primary"
           alt="..."
         />
       </div>
 
       <div class="container-sm m-5 p-5">
+        <div class="container-sm m-4">
+           2) After logining into the app, users will be having a Dashboard with some stats in blocks with there name, change password
+           and logout buttons and top. Also, the sidebar on left.
+        </div>
         <img
-          src="./images/Screenshot (77).png"
+          src="./images/Dashboard.png"
           class="img-fluid border border-primary"
           alt="..."
         />
       </div>
 
       <div class="container-sm m-5 p-5">
+        <div class="container-sm m-3">
+           3) Student table with data of all students. For more details, user can click on more option icon placed before delete.
+       </div>       
         <img
-          src="./images/Screenshot (78).png"
+          src="./images/AllStudent.png"
           class="img-fluid border border-primary"
           alt="..."
         />
       </div>
 
       <div class="container-sm m-5 p-5">
+        <div class="container-sm m-3">
+           4) Users table with data of all users. Edit, add and delete associated with searching and sorting among users.
+       </div>       
         <img
-          src="./images/Screenshot (79).png"
+          src="./images/AllUsers.png"
           class="img-fluid border border-primary"
           alt="..."
         />
       </div>
 
       <div class="container-sm m-5 p-5">
+        <div class="container-sm m-3">
+           5) Creating user / registration is allowed only from inside of the app. 
+       </div>       
         <img
-          src="./images/Screenshot (138).png"
+          src="./images/Register.png"
           class="img-fluid border border-primary"
           alt="..."
         />
       </div>
     </div>
 
-    <p class="font-weight-light text-center m-5">Make with <i class="far fa-heart text-danger"></i> by <a href="https://www.linkedin.com/in/yashlakade/">Yash Lakade</a></p>         
+    
+    <div class="container-sm text-center">
+      Thank You for your time  !!
+    </div>       
+    
+    <i class="fas fa-heart"></i>
+    <p class="font-weight-light text-center m-5">Make with <img src="./images/Heart.svg" alt="Heart" style="height: 15px;"> by <a href="https://www.linkedin.com/in/yashlakade/">Yash Lakade</a></p>         
   </body>
 </html>
